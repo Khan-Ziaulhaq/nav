@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+section1 {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .logo {
+        height: 75px;
+        width: 150px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 5%;
+        background-color: #f4f4f4;
+    }
+
+    .logo-container {
+        flex-shrink: 0;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav-list li {
+        margin: 0;
+    }
+
+    .nav-list li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        border: 2px solid;
+        border-radius: 5px;
+        transition: border-color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+        background-color: #000;
+        color: #fff;
+        border-color: #000;
+        transition: border-color 0.5s, background-color 0.5s;
+    }
+
+    .login {
+        padding: 12px 25px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .login:hover {
+        background-color: #fff;
+        color: #000;
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+
+
+}
+
+
+section2 {
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #252525;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 6%;
+    }
+
+    .logo {
+        font-family: 'Lilita One', sans-serif;
+        font-size: 26px;
+        color: #f8f8f8;
+        cursor: pointer;
+    }
+
+    .logo:hover {
+        transition: transform 0.3s ease;
+        transform: scale(1.1);
+    }
+
+    .nav-links {
+        list-style: none;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        margin: 0 8px;
+    }
+
+    .nav-links li a {
+        padding: 8px 16px;
+        border: 2px solid #f8f8f8;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+        background-color: #f8f8f8;
+        color: #252525;
+    }
+
+    li,
+    a,
+    button {
+        font-size: 16px;
+        color: #f8f8f8;
+        text-decoration: none;
+    }
+
+    button {
+        padding: 9px 20px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: rgb(194, 194, 194);
+    }
+
+    .cta button {
+        font-weight: bold;
+    }
+}
